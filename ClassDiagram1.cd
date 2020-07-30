@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PlayerManager">
+    <Position X="0.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFZAECQQQAAgAAAAAAAAAABAABAAAAgAABAAEEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\PlayerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuildManager">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAAEAAAEAAAAAAAAAAAAAAAAABAAAAAQAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\BuildManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Node" />
+      <Property Name="Tower" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CameraController">
+    <Position X="5.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AHSAACAAAAAAAAAAACAAAAAAAAAIAAAAAAAAAHAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUIManager">
+    <Position X="7.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQkgUUBFhFgQBAGVCBgAEAAYQBBAGAAAAAAABAgBCQ=</HashCode>
+      <FileName>Assets\Scripts\Managers\GUIManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Tower" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WavesManager">
+    <Position X="10.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQQAIgABECAABAACUAAAggAAAAFAAAAAAAAAAgAQAAI=</HashCode>
+      <FileName>Assets\Scripts\Managers\WavesManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Enemy" />
+      <Property Name="Boss" />
+      <Property Name="Waypoints" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Waypoints">
+    <Position X="10.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\Waypoints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bullet">
+    <Position X="15" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQEEAAAAwAAIIAAAAAAAAAAAAQAAAAQCAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Base\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coin">
+    <Position X="5.25" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAAAAAAABQAAgAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Base\Coin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Debuff" Collapsed="true">
+    <Position X="15.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAIAAAAAQEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Base\Debuff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fire" Collapsed="true">
+    <Position X="15.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Base\Debuff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Poison" Collapsed="true">
+    <Position X="15.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Base\Debuff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ice" Collapsed="true">
+    <Position X="15.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Base\Debuff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy">
+    <Position X="12.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEQACQAIACAAAIAAIBBIAEABCAAAAAAgABAAiIAYAIA=</HashCode>
+      <FileName>Assets\Scripts\Base\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Node">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAABAIAAAEAAAAAQAIAAAAIAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Base\Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tower">
+    <Position X="17.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EESCAAAIACQKgMBQJAFgCAIEFIFhACQCJFAEREtSAEA=</HashCode>
+      <FileName>Assets\Scripts\Base\Tower.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Debuff" />
+      <Property Name="Bullet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SkipButton">
+    <Position X="3.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\GUI\SkipButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextFading">
+    <Position X="3.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAACAAAAAAAAAACAAAAQAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\GUI\TextFading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirTower">
+    <Position X="7.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Towers\AirTower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FireTower">
+    <Position X="12.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Towers\FireTower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IceTower">
+    <Position X="10" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Towers\IceTower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoisonTower">
+    <Position X="14.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Towers\PoisonTower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boss" Collapsed="true">
+    <Position X="13" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boss.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu">
+    <Position X="5.25" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAUAAECAAAAAAAAAAAAAABAAAAAAAIAAAAAAAAAE=</HashCode>
+      <FileName>Assets\Scripts\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerData">
+    <Position X="0.5" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAUQAAAAAQAAAAAAAAIAAAAEACAAAAAAAABAAAiA=</HashCode>
+      <FileName>Assets\Scripts\PlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveSystem">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\SaveSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
